@@ -68,6 +68,7 @@ def writeContents(contents):
 def setupGUI(contents, gridW, gridH):
     root = Tk()
     root.geometry('750x150') 
+    root.title("CopyBank")
 
     global nextIdx
 
@@ -76,6 +77,7 @@ def setupGUI(contents, gridW, gridH):
 
         menu = Tk()
         menu.geometry('275x75')
+        menu.title("Action Selector")
 
         try:
             selected = contents[idx][0]
@@ -102,6 +104,7 @@ def setupGUI(contents, gridW, gridH):
 
         temp = Tk()
         temp.geometry('200x125')
+        temp.title("Change Text")
 
         # creating temp widgets for the popup
         headerRaw = Label(temp, text="Enter the TEXT to be stored.").pack(side = 'top')
