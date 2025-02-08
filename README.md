@@ -1,5 +1,5 @@
 # Copy-Bank
-A tool to cenralise prefab text under nicknames.
+A tool to centralise prefab text under nicknames.
 
 Made this to replace an old, no longer supported program with similar functionality. You can click on a grid of buttons to change the text values stored by each, or copy it to clipboard.
 
